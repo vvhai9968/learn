@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AccessModifiers", "AccessModifiers", "{16E09E7B-F3DF-4983-BAF8-1EAF039D7545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly1", "AccessModifiers\Assembly1\Assembly1.csproj", "{3AE6B600-7CDE-4B90-AF15-A4194C74CA43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly2", "AccessModifiers\Assembly2\Assembly2.csproj", "{875F863C-3090-4AFC-8FB6-81BE1290AEC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AE6B600-7CDE-4B90-AF15-A4194C74CA43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AE6B600-7CDE-4B90-AF15-A4194C74CA43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AE6B600-7CDE-4B90-AF15-A4194C74CA43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AE6B600-7CDE-4B90-AF15-A4194C74CA43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{875F863C-3090-4AFC-8FB6-81BE1290AEC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{875F863C-3090-4AFC-8FB6-81BE1290AEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{875F863C-3090-4AFC-8FB6-81BE1290AEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{875F863C-3090-4AFC-8FB6-81BE1290AEC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3AE6B600-7CDE-4B90-AF15-A4194C74CA43} = {16E09E7B-F3DF-4983-BAF8-1EAF039D7545}
+		{875F863C-3090-4AFC-8FB6-81BE1290AEC1} = {16E09E7B-F3DF-4983-BAF8-1EAF039D7545}
+	EndGlobalSection
+EndGlobal
