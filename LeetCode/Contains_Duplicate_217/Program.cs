@@ -1,6 +1,8 @@
-﻿public class Program
+﻿namespace Contains_Duplicate_217;
+
+public class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         var result = ContainsDuplicate([1, 2, 3, 1]);
         Console.WriteLine(result);
@@ -8,7 +10,7 @@
 
     #region Method 1: complexity O(N2) time out when encountering big data
 
-    public static bool ContainsDuplicate1(int[] nums)
+    private static bool ContainsDuplicate1(int[] nums)
     {
         for (var i = 0; i < nums.Length; i++)
         {
@@ -28,30 +30,20 @@
 
     #region Method 2: complexity O(N)
 
-    public static bool ContainsDuplicate(int[] nums)
+    private static bool ContainsDuplicate(int[] nums)
     {
         var arrDistinct = new Dictionary<int, int>();
-        foreach (var t in nums)
-        {
-            if (arrDistinct.ContainsKey(t)) return true;
-            arrDistinct[t] = t;
-        }
-
-        return false;
+        return nums.Any(t => !arrDistinct.TryAdd(t, t));
     }
 
     #endregion
     
     #region Method 3: complexity O(N)
 
-    public static bool ContainsDuplicate3(int[] nums)
+    private static bool ContainsDuplicate3(int[] nums)
     {
         var seen = new HashSet<int>();
-        foreach(var x in nums)
-        {
-            if (!seen.Add(x)) return true;
-        }
-        return false;
+        return nums.Any(x => !seen.Add(x));
     }
 
     #endregion

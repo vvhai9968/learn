@@ -1,12 +1,14 @@
-﻿public class Program
+﻿namespace Valid_anagram_242;
+
+public class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         var isAnagram = IsAnagram("anagram","nagaram");
         Console.WriteLine(isAnagram);
     }
     
-    public static bool IsAnagram1(string s, string t) {
+    private static bool IsAnagram1(string s, string t) {
         if (s.Length != t.Length) return false;
         var sSort = s.ToCharArray();
         var tSort = t.ToCharArray();
@@ -14,8 +16,8 @@
         Array.Sort(tSort);
         return sSort.SequenceEqual(tSort);
     }
-    
-    public static bool IsAnagram(string s, string t) {
+
+    private static bool IsAnagram(string s, string t) {
         if (s.Length != t.Length) return false;
        
         var countS = new Dictionary<char, int>();
