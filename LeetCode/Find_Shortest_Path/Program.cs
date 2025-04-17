@@ -1,13 +1,15 @@
-﻿public class Program
+﻿namespace Find_Shortest_Path;
+
+public class Program
 {
     static void Main(string[] args)
     {
           
         // A --(4)-- B --(3)-- D
-        //     \       /
-        //     (2)   (1)
-        //      \   /
-        //        C
+        //  \      /
+        //  (2)  (1)
+        //    \  /
+        //     C
         var distances = new Dictionary<string, int> {
             ["A"] = 0,
             ["B"] = int.MaxValue,
@@ -38,7 +40,7 @@
             }
         }
 
-        Console.WriteLine($"Khoảng cách ngắn nhất từ A đến D là: {distances["D"]}");
+        Console.WriteLine($"Khoang cach ngan nhat tu A đen D la: {distances["D"]}");
         // Kết quả: 6 (A → C → B → D)
     }
 }
