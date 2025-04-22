@@ -20,7 +20,7 @@ class Abstraction
 
 
     // khác với abstract thì interface chỉ là bản thiết kế chi tiết của các method và 1 class có thể kế thừa được nhiều interface
-    // hiểu đơn giản là interface giong abstract vì đều là class đang dang dở và các lớp kế thừa nó phải thức thi các hàm bên trong nó
+    // hiểu đơn giản là interface giống abstract vì đều là class đang dang dở và các lớp kế thừa nó phải thức thi các hàm bên trong nó
     public interface IRunable
 
     {
