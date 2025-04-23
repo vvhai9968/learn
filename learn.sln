@@ -74,9 +74,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateDemo", "Delegate\De
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Collection", "Collection", "{6A5E8E45-A214-450A-A1BF-69A8F03D6BB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreInterfaces", "CollectionInterfaces\CoreInterfaces\CoreInterfaces.csproj", "{57B773BB-0414-455F-AC68-F5098B6235B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreInterfaces", "Collection\CoreInterfaces\CoreInterfaces.csproj", "{57B773BB-0414-455F-AC68-F5098B6235B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericCollection", "GenericCollection\GenericCollection.csproj", "{5983FB69-CA5E-4A9F-B648-BCEF1DB0B827}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericCollection", "Collection\GenericCollection\GenericCollection.csproj", "{5983FB69-CA5E-4A9F-B648-BCEF1DB0B827}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
