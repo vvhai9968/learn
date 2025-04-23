@@ -55,7 +55,7 @@ class Program
     /// ------------------ Disadvantages ------------------
     /// + No indexing: Can't access elements by index
     /// + Less commonly used directly: often used as a base in libraries
-    
+     
    
     /// ******************** IList<T> ********************
     /// Real use case: You're building a shopping cart where item order matters and you need to insert/remove at specific positions 
@@ -86,7 +86,7 @@ class Program
     /// + Slightly more complex: Compared to simple lists or arrays
     /// </summary>
     
-    static void Main(string[] args)
+    static void Main()
     {
         // ===== 1. IQueryable<T> Example =====
         Console.WriteLine("=== IQueryable<T> Example ===");
