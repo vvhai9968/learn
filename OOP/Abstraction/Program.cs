@@ -9,7 +9,7 @@ class Abstraction
     public abstract class Animal
     {
         //protected cho phep lop ke thua được truy cập
-        // protected string Name { get; set; }
+        protected string Names { get; set; }
 
         // abstract bắt buộc phải thực thi
         // virtual nghĩa gần giống abstract nên 2 cái ko thể đi cùng nhau được: virtual cho phép override ,abstract bắt buộc phải override
